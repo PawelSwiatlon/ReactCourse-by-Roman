@@ -1,8 +1,10 @@
 import React from 'react';
+import ListWraper from './components/ListWrapper/ListWrapper';
+import './index.css';
 
 const App = () => (
     <div>
-        <h1>Hello World</h1>
+        <ListWraper />
     </div>
 );
 
