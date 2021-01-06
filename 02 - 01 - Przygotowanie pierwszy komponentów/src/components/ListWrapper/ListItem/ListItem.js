@@ -20,7 +20,7 @@ const ListItem = ({
             <p className="listItem__description">
                 {description}
             </p>
-            <a className="listItem__button" href={twitterLink}>
+            <a className="listItem__button" target="_blank" href={twitterLink}>
                 visit twitter page
             </a>
         </div>
