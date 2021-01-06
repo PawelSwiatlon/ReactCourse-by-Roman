@@ -6,12 +6,7 @@ import { twitterAccounts } from '../../data/twitterAccounts';
 const ListWraper = () => (
     <ul className="listWrapper__wrapper">
         {twitterAccounts.map(item => (
-            <ListItem 
-                name={item.name}
-                description={item.description}
-                image={item.image}
-                twitterLink={item.twitterLink}
-            />
+            <ListItem key={item.name} {...item} />
         ))}
     </ul>
 );
