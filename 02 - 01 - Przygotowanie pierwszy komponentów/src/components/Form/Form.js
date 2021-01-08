@@ -53,6 +53,7 @@ const Form = ({ submitFn }) => (
           name="description"
           id="description"
           placeholder=" "
+          required
         />
         <label className={styles.label} htmlFor="description">
           Description
