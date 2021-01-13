@@ -1,7 +1,5 @@
 import React from "react";
-import List from "./components/List/List";
 import "./index.css";
-import Form from "./components/Form/Form";
 
 const initialStateItems = [
   {
@@ -12,7 +10,7 @@ const initialStateItems = [
   }
 ];
 
-class App extends React.Component {
+class Root extends React.Component {
   state = {
     items: [...initialStateItems],
   };
@@ -37,11 +35,10 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <List items={this.state.items} />
-        <Form submitFn={this.addItem} />
+        <h1>Hello World</h1>
       </div>
     );
   }
 }
 
-export default App;
+export default Root;
