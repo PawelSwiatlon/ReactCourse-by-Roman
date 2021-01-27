@@ -1,5 +1,5 @@
 import style from './App.module.scss';
-import ItemsList from './ItemsList/ItemsList';
+import ItemsList from '../../components/ItemsList/ItemsList';
 
 function App() {
   return (
